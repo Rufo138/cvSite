@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta http-equiv="Cache-control" content="public">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Leonardo Rufino</title>
+<link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./src/favicon.ico" type="image/x-icon">
+<link type="text/css" rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&26display=swap" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="./src/index.css">
+
+<body class="en" >
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-hide-medium w3-hide-large hover" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button w3-hover-blue w3-hide-small" lang="en"><i class="fa fa-home"></i><span lang="en" style="padding-left:6px">HOME</span></a>
+    <a href="#about" class="w3-bar-item w3-button w3-hover-blue w3-hide-small" lang="en"><i class="fa fa-user"></i> <span lang="en" style="padding-left:6px">ABOUT</span></a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hover-blue w3-hide-small" lang="en"><i class="fa fa-th"></i> <span lang="en" style="padding-left:6px">PORTFOLIO</span></a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-blue w3-hide-small" lang="en"><i class="fa fa-envelope"></i> <span lang="en" style="padding-left:6px">CONTACT</span></a>
+    <a href="#home" class="w3-bar-item w3-button w3-hover-blue w3-hide-small" lang="it"><i class="fa fa-home"></i><span lang="it" style="padding-left:6px">HOME</span></a>
+    <a href="#about" class="w3-bar-item w3-button w3-hover-blue w3-hide-small" lang="it"><i class="fa fa-user"></i>  <span lang="it" style="padding-left:6px">ACERCA DE MI</span></a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hover-blue w3-hide-small" lang="it"><i class="fa fa-th"></i>  <span lang="it" style="padding-left:6px">PORTFOLIO</span></a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-blue w3-hide-small" lang="it"><i class="fa fa-envelope"></i> <span lang="it" style="padding-left:6px">CONTACTO</span></a>
+    <button class ="w3-bar-item w3-button w3-right w3-hover-blue" onclick="Ingles()" lang="it"><span lang="it">INGLES</span></button><button class ="w3-bar-item w3-button w3-right w3-hover-blue" onclick="Español()" lang="en"><span lang="en">ESPAÑOL</span></button>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-left hover">
+    <a href="#home" class="smallNavbar hover" onclick="toggleFunction()" lang="en"><span lang="en">HOME</span></a>
+    <a href="#about" class="smallNavbar hover" onclick="toggleFunction()" lang="en"><span lang="en">ABOUT</span></a>
+    <a href="#portfolio" class="smallNavbar hover" onclick="toggleFunction()" lang="en"><span lang="en">PORTFOLIO</span></a>
+    <a href="#contact" class="smallNavbar hover" onclick="toggleFunction()" lang="en"><span lang="en">CONTACT</span></a>
+    <a href="#about" class="smallNavbar hover" onclick="toggleFunction()" lang="it"><span lang="it">HOME</span></a>
+    <a href="#about" class="smallNavbar hover" onclick="toggleFunction()" lang="it"><span lang="it">ACERCA DE MI</span></a>
+    <a href="#portfolio" class="smallNavbar hover" onclick="toggleFunction()" lang="it"><span lang="it">PORTFOLIO</span></a>
+    <a href="#contact" class="smallNavbar hover" onclick="toggleFunction()" lang="it"><span lang="it">CONTACTO</span></a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div loading="lazy" class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle noSelect roque" style="white-space:nowrap;">
+    <br>
+    <br>
+    <span class="w3-text-white w3-wide" lang="en" id="bien">WELCOME</span>
+    <span class="w3-text-white w3-wide" lang="it" id="bien">BIENVENIDO</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div loading="lazy" class="w3-display-container w3-margin-left w3-margin-right about"  id="about">
+  <h3 class="w3-center w3-padding-16" lang="en">ABOUT ME</h3>
+  <h3 class="w3-center w3-padding-16" lang="it">ACERCA DE MI</h3>
+  <div class="w3-row">
+    <div class="w3-col m12 w3-center">
+    <h3><b>Leonardo Rufino</b></h3>
+      </div>
+    <!-- Hide this text on small devices -->
+          <div class="w3-col m12 20padding">
+            <span class="w3-hide-small" lang="en">I started in the world of programming, making simple layouts with html, css and js.
+              Enter the SoyHenry bootcamp where I learned how to develop an ecommerce under the scrum methodology.
+              After that, Now I am currently studying Bachelor's Degree in Computer Systems in Universidad Nacional de Lujan(UNLU).
+              </span>
+            <span lang="en">I am creative, I have the ability to solve problems and work in a team.
+              I enjoy new technologies and improve my knowledge.           </span>
+              
+              <span class="w3-hide-small" lang="it">Me inicié en el mundo de la programación con maquetaciones sencillas con html, css y js.
+                Ingrese al bootcamp SoyHenry donde aprendí a desarrollar un ecommerce con la metodologia scrum.
+                Y actualmente me encuentro cursando la Licenciatura en sistemas de información en la Universidad Nacional de Lujan(UNLU).</span>
+                <span lang="it">Soy creativo, tengo capacidad para resolver problemas y trabajar en equipo.
+                  Disfruto de las nuevas tecnologías y mejorar mis conocimientos.</span>      
+  </div>
+</div>
+<!-- Progress bar -->
+<div class="w3-center">
+    <span class="w3-large w3-center w3-padding-16" lang="en">Im really good at:</span>
+    <span class="w3-large w3-center w3-padding-16" lang="it">Soy realmente bueno en:</span>
+  </div>
+  <span class="w3-wide w3-margin-top" lang="en"><i class="fa fa-camera" lang="en"></i>Adaptability</span>
+  <span class="w3-wide w3-margin-top" lang="it"><i class="fa fa-camera" lang="it"></i>Adaptabilidad</span>
+  <div class="w3-center">
+  <div class=" w3-display-container w3-light-grey">
+    <div class="w3-container w3-blue progress1"><p class="barraProgress w3-display-middle">90%</p></div>
+  </div>
+</div>
+  <p class="w3-wide" lang="en"><i class="fa fa-laptop" lang="en"></i>Web Design</p>
+  <p class="w3-wide" lang="it"><i class="fa fa-laptop" lang="it"></i>Diseño Web</p>
+  <div class="w3-display-container w3-light-grey">
+    <div class="w3-container w3-blue progress2"><p class="barraProgress w3-display-middle">85%</p></div>
+  </div>
+  <p class="w3-wide" lang="en"><i class="fa fa-photo" lang="en"></i>Problem solving </p>
+  <p class="w3-wide" lang="it"><i class="fa fa-photo" lang="it"></i>Resolucion de problemas</p>
+  <div class="w3-display-container w3-light-grey">
+    <div class="w3-container w3-blue progress3"><p class="barraProgress w3-display-middle">75%</p></div>
+  </div>
+</div>
+<!-- Brands -->
+<div class="w3-row w3-blue brands">
+  <div class="w3-res w3-center w3-padding-large ">
+  <iframe title="Vue" src="./brands/vuejs.svg" loading="lazy" frameborder="0" class="brandsFrame">Vue</iframe>
+  <iframe title="Html" src="./brands/html5.svg" loading="lazy" frameborder="0" class="brandsFrame">Html5</iframe>
+  <iframe title="Javascript" src="./brands/js.svg" loading="lazy" frameborder="0" class="brandsFrame">Javascript</iframe>
+  <iframe title="Php" src="./brands/php.svg" loading="lazy" frameborder="0" class="brandsFrame">Php</iframe>
+  <iframe title="Bootstrap" src="./brands/bootstrap.svg" loading="lazy" frameborder="0" class="brandsFrame">Bootstrap</iframe>
+  <iframe title="Angular" src="./brands/angular.svg" loading="lazy" frameborder="0" class="brandsFrame">Angular</iframe>
+  <iframe title="React" src="./brands/react.svg" loading="lazy" frameborder="0" class="brandsFrame">React</iframe>
+  <iframe title="Css" src="./brands/css3-alt.svg" loading="lazy" frameborder="0" class="brandsFrame">Css3</iframe>
+</div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div loading="lazy" class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide" lang="en">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-white w3-wide" lang="it">PORTAFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-32" id="portfolio">
+  <h3 class="w3-center" lang="en">MY WEBSITES</h3>
+  <h3 class="w3-center" lang="it">MIS WEBS</h3>
+  <div class="w3-center">
+  <span class="w3-center" lang="en"><em>Here are some of my latest works.<br lang="en"> Click on the images to make them bigger</em></span><br lang="en">
+  <span class="w3-center" lang="it"><em>Estos son algunos de mis últimos trabajos.<br lang="it"> Haga clic en las imágenes para agrandarlas</em></span><br lang="it">
+</div> <br>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m6">
+      <img src="./src/portfolio2.jpg" loading="lazy" onclick="onClick(this)" class="portfolio w3-hover-opacity" alt="Minimal Radio Stream">
+    </div>
+    <div class="w3-col m6">
+      <img src="./src/portfolio1.jpg" loading="lazy" onclick="onClick(this)" class="portfolio w3-hover-opacity" alt="Ecommerce">
+    </div>
+    <div class="w3-col m6">
+      <img src="./src/portfolio3.jpg" loading="lazy" onclick="onClick(this)" class="portfolio w3-hover-opacity" alt="OldCv">
+    </div>
+    <div class="w3-col m6">
+      <img src="./src/portfolio0.jpg" loading="lazy" onclick="onClick(this)" class="portfolio w3-hover-opacity" alt="SpaceInvader">
+    </div>
+    <!--<div class="w3-col m6">
+      <img src="./src/portfolio4.jpg" loading="lazy" onclick="onClick(this)" class="portfolio w3-hover-opacity" alt="LowCode Crud">
+    </div>
+    <div class="w3-col m6">
+      <img src="./src/portfolio5.jpg" loading="lazy" onclick="onClick(this)" class="portfolio w3-hover-opacity" alt="Notes Crud">
+    </div>-->
+  </div>
+
+  </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large">
+    </p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide" lang="en">CONTACT</span>
+     <span class="w3-xxlarge w3-text-white w3-wide" lang="it">CONTACTO</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container" id="contact">
+  <div class="w3-row w3-section">
+    <div class="w3-col m12 w3-panel w-center">
+    <div class="w3-xlarge w3-center">
+    <p lang="en">To drink <i class="fa fa-beer"></i> or <i class="fa fa-coffee"></i>, leave me a message</p>
+    <p lang="it">Para beber <i class="fa fa-beer"></i> o <i class="fa fa-coffee"></i>, dejar un mensaje</p>
+    </div>
+  </div>
+    <div class="w3-col m12 w3-panel w-center">
+      <div class="w3-xlarge w3-center">
+        <i class="fa fa-map-marker w3-xlarge text w3-hover-blue padding20"><span class="w3-margin-left noSelect">Bs As, Arg</span></i><br>
+        <i class="fa fa-whatsapp w3-xlarge text w3-hover-blue padding20"><number><a rel="noopener" href="https://api.whatsapp.com/send?phone=541130358874" class="decorationNone"><span class="w3-margin-left">WhatsApp</span></a></number></i><br>
+        <i class="fa fa-envelope w3-xlarge text w3-hover-blue padding20"><a rel="noopener" href="mailto:Rufino_138@hotmail.com" class="decorationNone"><span class="decorationNone w3-margin-left">Email</span><br></a></i>
+      </div>
+                  <div class="w3-col m12 w3-container w3-center">
+      <img src="./src/Thanks.png" class="w3-image w3-round alien" alt="thanksalien" style="width:20% ;">
+    </div>
+        <div class="w3-xlarge m w3-center">
+    <p lang="en">Thanks for your time</p>
+    <p lang="it">Gracias por tu tiempo</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black">
+  <a href="#home" class="w3-button w3-hover-blue"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a rel="noopener" href="https://www.linkedin.com/in/leonardo-nahuel-rufino/"><i class="footerIconPadding fa fa-linkedin w3-hover-blue"></i></a>
+    <a rel="noopener" href="https://github.com/Rufo138"><i class="footerIconPadding fa fa-github w3-hover-blue" style="padding: 10px;"></i></a>
+    <a rel="noopener" href="https://www.facebook.com/leonardo.rufino.7/"><i class="footerIconPadding fa fa-facebook-official w3-hover-blue"></i></a>  
+  </div>
+  <p>Powered by <a rel="noopener" href="https://github.com/Rufo138" title="Rufo" target="_blank" class="decorationNone w3-hover-text-blue">Rufino</a></p>
+</footer>
+ 
+<script>
+  // Comprobar si navegador tiene soporte o no con LazyLoad
+      if ("loading" in HTMLImageElement.prototype) {
+      console.log("Browser support `loading`...");
+} else {
+      console.log("Not supported");
+}
+  // Cambio de idioma
+  function Español(){
+  document.body.className='it';
+}
+  function Ingles(){
+  document.body.className='en';
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 357) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-black", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+</script>
+</body>
+</html>
